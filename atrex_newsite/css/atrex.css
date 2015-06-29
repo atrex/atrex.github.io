@@ -444,7 +444,7 @@ ul.lst li.last a {
 	border: none;
 	}
 ul.lst a:hover {
-	color: rgb(246,98,35);
+	color: #03729d;
 	font-weight: bold;
 	background: #f8f7f1;
 	}
