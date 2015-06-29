@@ -1,0 +1,508 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #282828;
+	font-size: 62.5%;
+	background-color: #aec7d1;
+}
+
+#body-header {
+}
+
+/*---------------------------------------------------------------------------
+	Links
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited {
+	color: #000000;
+	outline: none;
+}
+
+a:hover {
+	color: #05658b;
+}
+
+th, td
+{
+	font-size: 14px;
+	padding: 2px;
+}
+
+/*---------------------------------------------------------------------------
+	Page Structure
+-----------------------------------------------------------------------------*/
+
+#sheet{
+	position: absolute;
+	top: 226px;
+	width: 100%;
+}
+
+#sheet-wrap{
+	position:relative;
+	margin:0 auto;
+	width: 900px;
+	min-width:23px;
+	min-height:23px;
+	background-color: #FFF;
+	background-color: #dde8ed;
+	overflow: hidden;
+}
+
+#main{
+	/*float: left;*/
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 245px;
+	/*width: 75%;*/
+	}
+
+#secondary{
+	float: right;
+	width: 225px;
+	margin-right: 10px;
+	margin-top: 10px;
+	}
+
+/*---------------------------------------------------------------------------
+	Header
+-----------------------------------------------------------------------------*/
+
+#header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+#header-background {
+	background: #000 url(../img/Page-BgSimpleGradient.jpg) repeat-x bottom left;
+	height: 225px;
+}
+
+#header-reset{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+#header-wrap {
+	position:relative;
+	margin:0 auto;
+	width: 900px;
+	min-width:23px;
+	min-height:23px;
+}
+
+#header-img {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 898px;
+	height: 225px;
+	background: #06729d url(../img/header.png) no-repeat left top;
+}
+
+/* Logo */
+#logo{
+	position: relative;
+}
+
+#logo-text{
+	position: absolute;
+	top: 45px;
+	left: 340px;
+	color: #FFFFFF;
+	letter-spacing: 1px;	
+	font-size: 7.5em;
+	
+}
+
+#logo-tag{
+	position: absolute;
+	top: 135px;
+	left: 400px;
+	color: #bfc0c1;
+	color: #ffffff;
+	color: #dcf1fa;
+	letter-spacing: 1px;	
+	font-size: 1.75em;
+}
+
+/*---------------------------------------------------------------------------
+	Navbar
+-----------------------------------------------------------------------------*/
+#nav {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.4em;
+	top: 186px;	
+	}
+	
+#nav ul {
+	margin: 0 auto;
+	}
+
+#nav ul li.first {
+	margin-left: 0;
+	}
+	
+#nav ul li {
+	float: left;
+	width: 20%;
+	margin: 0 0 0 0;
+	}
+	
+#nav ul li.last {
+	margin-right: 0;
+	}
+	
+#nav ul li a {
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ffffff;
+	border-left: 1px solid #046c95;
+	}
+	
+#nav ul li a strong {
+	display: block;
+	padding: .4em 15px;
+	}
+	
+#nav ul li a em {
+	display: block;
+	font-size: .8em;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	color: #bfc0c1;
+	color: #ffffff;
+	color: #dcf1fa;
+	}
+
+#nav li a:hover {
+	background: #000;
+	background: rgba(0,0,0,.15);
+}
+
+/*---------------------------------------------------------------------------
+	Main Styles
+-----------------------------------------------------------------------------*/
+
+#main .programName{
+	color: #03739f;
+}
+
+#main h1{
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #03739f;
+  font-size: 31px;
+}
+
+#main h2{
+font-style: normal;
+font-weight: bold;
+text-align: left;
+color: #03739f;
+font-size: 25px;
+}
+
+#main h3{
+font-style: normal;
+font-weight: bold;
+text-align: left;
+color: #03739f;
+font-size: 19px;
+}
+
+#main p{
+	font-size: 15px;
+	padding: 5px;
+}
+
+
+#main #normallist ul
+{
+	color: #000000;
+	margin:1em 0 1em 2em;
+	padding:0;
+	font-size: 13px;
+}
+
+#main #normallist li
+{
+	margin:0.2em 0;
+	padding:0;
+}
+
+
+#main #normallist ul li
+{
+	background-image: url('../img/PostBullets.png');
+	background-repeat:no-repeat;
+	padding-left:20px;
+}
+
+#main #features ul
+{
+	float: left;
+	width: 49%;
+}
+
+#main #features ul li
+{
+	
+	margin:0.4em 1.0em;
+	/*padding:0;*/
+}
+
+#main #features li
+{
+	background: transparent url("../img/benzenebullet.png") left no-repeat;
+	position: relative;
+	padding: 0px 0px 0px 40px;
+	font-size: 18px;
+}
+
+#main #agree-button
+{
+	position: relative;
+	width: 40%;
+	top: 0px;
+	bottom: 0px;
+	margin: 15px 0 1.5em 200px;
+	padding: 15px;
+	background: #ffffff;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+#main #agree-button a
+{
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+}
+
+#main #licenceform-popup {
+	display: none;
+	padding-top: 5px;
+}
+
+#main .centeredimg {
+	/*margin: 0 auto;*/
+	margin-top: 20px;
+	margin-left: 120px;	
+}
+
+#main .centeredimg p{
+	font-size: 10px;
+	text-align: center;
+}
+
+#main #littlenote p {
+	font-size: 10px;
+}
+
+#main .moo{
+	padding-left: 270px;
+}
+
+/*---------------------------------------------------------------------------
+	Secondary Styles
+-----------------------------------------------------------------------------*/
+
+.button {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	margin: 18px 0 1.5em 0;
+	padding: 10px 10px 40px 10px;
+	background: #eef0f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+.button img {
+	float: left;
+	width: 18%;
+}
+
+.button a {
+	display: block;
+	float: right;
+	width: 80%;
+	font-size: 1.4em;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;
+	text-decoration: none;	
+}
+
+.forumbutton {
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	margin: 18px 0 1.5em 0;
+	padding: 10px 10px 54px 10px;
+	background: #04415a;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+.forumbutton img {
+	float: left;
+	padding-top: 8px;
+	width: 25%;
+}
+
+.forumbutton a {
+	display: block;
+	float: right;
+	width: 68%;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;
+	text-decoration: none;	
+}
+
+.button .justtext em {
+	font-style: normal;
+	color: #000000;
+}
+
+.button .justtext a {
+	width: 95%;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000000;
+	text-decoration: none;	
+}
+
+
+div.mod {
+	margin: 0 0 1.5em 0;
+	padding: 15px;
+	background: #eef0f1;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	}
+div.alt {
+	margin-bottom: .5em;
+	background: none;
+	}
+div.mod h3 {
+	margin: 0;
+	padding: 0 0 4px 0;
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #417ea1;
+	color: #000000;	
+	border-bottom: 2px solid #03729d;
+	}
+div.alt h3 {
+	border-bottom-color: #03729d;
+	}
+
+div.mod p {
+	color: #000000;
+	font-size: 12px;
+}
+
+.miaow {
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+/* menu list */
+
+ul.lst li a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 7px;
+	border-bottom: 1px solid #000000;
+	overflow: hidden;
+	}
+ul.lst li.last a {
+	border: none;
+	}
+ul.lst a:hover {
+	color: rgb(246,98,35);
+	font-weight: bold;
+	background: #f8f7f1;
+	}
+ul.lst li em {
+	float: right;
+	margin: 0 0 0 5px;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	}
+
+/*---------------------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------------------*/
+
+#footer-wrap{
+	position:relative;
+	margin:0 auto;
+	width: 900px;
+	min-width:23px;
+	min-height:23px;
+}
+
+#footer{
+	background-repeat:no-repeat;
+	background-color: #04415a;
+	background-color: #04415a;
+	width: 898px;
+	height: 35px;
+}
+
+#footer p{
+	color: #ffffff;
+	color: #ffffff;
+	padding: 10px 10px 10px 20px;
+}
+
+/*---------------------------------------------------------------------------
+	Misc
+-----------------------------------------------------------------------------*/
+
+hr, .hide {
+	display: none;
+}
+
+a img {
+	border: none;
+}
+
+/* self-clear floats */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
